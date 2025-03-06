@@ -1,6 +1,6 @@
 [build]
   command = "pip install -r requirements.txt"
-  publish = "public"  # (You can leave this as an empty folder if your site is fully dynamic)
+  publish = "."  # (You can leave this as an empty folder if your site is fully dynamic)
   functions = "functions"
 
 [[redirects]]
